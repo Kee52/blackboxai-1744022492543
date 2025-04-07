@@ -1,0 +1,8 @@
+BEV001,Espresso,beverages,2.50,Strong black coffee
+BEV002,Latte,beverages,3.50,Espresso with steamed milk
+BEV003,Cappuccino,beverages,3.20,Espresso with foamed milk
+FOO001,Croissant,food,2.80,Buttery flaky pastry
+FOO002,Blueberry Muffin,food,2.50,Sweet muffin with blueberries
+FOO003,Chocolate Chip Cookie,food,1.80,Classic cookie with chocolate chips
+OTR001,Coffee Beans,other,8.00,250g bag of premium beans
+OTR002,Mug,other,12.00,Ceramic coffee mug
