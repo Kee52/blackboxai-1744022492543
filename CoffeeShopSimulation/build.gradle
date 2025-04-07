@@ -1,0 +1,29 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.formdev:flatlaf:3.0' // For modern Swing look and feel
+}
+
+application {
+    mainClass = 'com.coffeeshop.Main'
+}
+
+task runApp(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.coffeeshop.Main'
+    args = []
+}
+
+// Configure Java version
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
